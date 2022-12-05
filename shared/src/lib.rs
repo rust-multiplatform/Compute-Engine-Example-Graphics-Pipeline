@@ -2,9 +2,8 @@
 
 use std::time::Instant;
 
-use compute_engine::{BaseEngine, ComputeEngine};
+use compute_engine::{BaseEngine, ComputeEngine, Vertex};
 use image::{ImageBuffer, Rgba};
-use math::Vertex;
 use vulkano::{
     buffer::{BufferUsage, CpuAccessibleBuffer},
     command_buffer::{
