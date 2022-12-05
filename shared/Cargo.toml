@@ -3,7 +3,7 @@ name = "shared"
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/rust-multiplatform/Base-Project-Template.git"
+repository = "https://github.com/rust-multiplatform/Compute-Engine-Template.git"
 
 [features]
 default = ["all-tests"]
@@ -14,3 +14,6 @@ all-tests = ["ui-tests"]
 crate-type = ["cdylib", "staticlib", "rlib"]
 
 [dependencies]
+compute_engine = { path = "./Compute-Engine-Library/" }
+log = "0.4.14"
+env_logger = "0.10.0"

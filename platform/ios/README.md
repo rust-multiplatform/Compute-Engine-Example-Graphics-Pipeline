@@ -1,10 +1,13 @@
 # Platform: iOS
 
-[![Rust](https://github.com/rust-multiplatform/Base-Project-Template/actions/workflows/platform_ios.yml/badge.svg)](https://github.com/rust-multiplatform/Base-Project-Template/actions/workflows/platform_ios.yml)
-[![codecov](https://codecov.io/gh/rust-multiplatform/Base-Project-Template/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Base-Project-Template)
+[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_ios.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_ios.yml)
+[![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template)
 
 This is the platform-specific project for the platform iOS.  
 Make sure to check the shared crate as we depend on it.
+
+To get any logging outputs run this with the environment variable `RUST_LOG` set to `INFO` or `DEBUG`.
+Alternatively, running this in debug mode _should_ automatically log everything in `DEBUG` mode.
 
 ## How does this work?
 

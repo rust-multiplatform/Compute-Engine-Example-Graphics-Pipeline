@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <name>OpenSourceProjects_RustMultiplatform_BaseProjectTemplate Config DSL Script</name>
-  <groupId>OpenSourceProjects_RustMultiplatform_BaseProjectTemplate</groupId>
-  <artifactId>OpenSourceProjects_RustMultiplatform_BaseProjectTemplate_dsl</artifactId>
+  <name>OpenSourceProjects_RustMultiplatform_ComputeEngineTemplate Config DSL Script</name>
+  <groupId>OpenSourceProjects_RustMultiplatform_ComputeEngineTemplate</groupId>
+  <artifactId>OpenSourceProjects_RustMultiplatform_ComputeEngineTemplate_dsl</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <parent>
