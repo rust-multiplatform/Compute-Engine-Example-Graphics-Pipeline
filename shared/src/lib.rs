@@ -1,5 +1,7 @@
 #![allow(clippy::all)]
 
+use std::time::Instant;
+
 use compute_engine::{BaseEngine, ComputeEngine};
 use image::{ImageBuffer, Rgba};
 use math::Vertex;
