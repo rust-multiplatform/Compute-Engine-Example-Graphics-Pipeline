@@ -1,7 +1,7 @@
 # Crate/Library: Shared
 
-[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/shared.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/shared.yml)
-[![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template)
+[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/shared.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/shared.yml)
+[![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline)
 
 This is our **one** crate that holds all the shared code for our Cross/Multi-platform apps.  
 This crate will be compiled as a library by each platform in their target architecture and called from each platform.

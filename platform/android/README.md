@@ -1,7 +1,7 @@
 # Platform: Android
 
-[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_android.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_android.yml)
-[![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template)
+[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_android.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_android.yml)
+[![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline)
 
 This is the platform-specific project for the platform Android.  
 Make sure to check the shared crate as we depend on it.

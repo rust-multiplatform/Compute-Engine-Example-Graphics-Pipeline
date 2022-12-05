@@ -30,16 +30,16 @@ For templates/examples we recommend to also dual-licensing.
 
 ## Project layout
 
-| Folder                                 | Description                                                                                                                         | GitHub Actions                                                                                                                                                                                                                  | Coverage                                                                                                                                                                                      |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ./                                     | Workspace root; `Cargo.toml` contains all project folders (internal crates)                                                         |                                                                                                                                                                                                                                 |                                                                                                                                                                                               |  |
-| [platform/](platform/)                 | Platform projects root. Contains every platform this demonstration is supported on incl. instructions on how to build and use them. |                                                                                                                                                                                                                                 |                                                                                                                                                                                               |
-| [platform/android/](platform/android/) | Contains the Android platform project and instructions on how to build this project for Android and run it.                         | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_android.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_android.yml) | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template) |
-| [platform/ios/](platform/ios/)         | Contains the iOS platform project and instructions on how to build this project for iOS and run it.                                 | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_ios.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_ios.yml)         | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template) |
-| [platform/linux/](platform/linux/)     | Contains the Linux platform project and instructions on how to build this project for Linux and run it.                             | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_linux.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_linux.yml)     | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template) |
-| [platform/macos/](platform/macos/)     | Contains the macOS platform project and instructions on how to build this project for macOS and run it.                             | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_macos.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_macos.yml)     | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template) |
-| [platform/windows/](platform/windows/) | Contains the Windows platform project and instructions on how to build this project for Windows and run it.                         | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_windows.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_windows.yml) | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template) |
-| [shared/](shared/)                     | Contains the **shared** code between **all** projects.                                                                              | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/shared.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/shared.yml)                     | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template) |
+| Folder                                 | Description                                                                                                                         | GitHub Actions                                                                                                                                                                                                                                                    | Coverage                                                                                                                                                                                                                        |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ./                                     | Workspace root; `Cargo.toml` contains all project folders (internal crates)                                                         |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                 |  |
+| [platform/](platform/)                 | Platform projects root. Contains every platform this demonstration is supported on incl. instructions on how to build and use them. |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                 |
+| [platform/android/](platform/android/) | Contains the Android platform project and instructions on how to build this project for Android and run it.                         | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_android.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_android.yml) | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline) |
+| [platform/ios/](platform/ios/)         | Contains the iOS platform project and instructions on how to build this project for iOS and run it.                                 | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_ios.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_ios.yml)         | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline) |
+| [platform/linux/](platform/linux/)     | Contains the Linux platform project and instructions on how to build this project for Linux and run it.                             | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_linux.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_linux.yml)     | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline) |
+| [platform/macos/](platform/macos/)     | Contains the macOS platform project and instructions on how to build this project for macOS and run it.                             | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_macos.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_macos.yml)     | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline) |
+| [platform/windows/](platform/windows/) | Contains the Windows platform project and instructions on how to build this project for Windows and run it.                         | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_windows.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_windows.yml) | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline) |
+| [shared/](shared/)                     | Contains the **shared** code between **all** projects.                                                                              | [![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/shared.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/shared.yml)                     | [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline) |
 
 > Note that some pipelines don't cover all platforms/projects, but are building a specific project like `platform_linux`.
 
@@ -160,12 +160,12 @@ This is done to save on build costs/minutes.
 
 ### CI Platform: GitHub Actions
 
-[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_android.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_android.yml)
-[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_ios.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_ios.yml)
-[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_linux.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_linux.yml)
-[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_macos.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_macos.yml)
-[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_windows.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/platform_windows.yml)
-[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/shared.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Template/actions/workflows/shared.yml)
+[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_android.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_android.yml)
+[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_ios.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_ios.yml)
+[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_linux.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_linux.yml)
+[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_macos.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_macos.yml)
+[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_windows.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/platform_windows.yml)
+[![Rust](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/shared.yml/badge.svg)](https://github.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/actions/workflows/shared.yml)
 
 On GitHub Actions we have a workflow file per package (platforms & shared).
 Each hast their own badge.
@@ -185,13 +185,13 @@ In fact I do have private projects on there.
 
 On CircleCI we also support each package, but we only have one badge for the whole pipeline.
 
-[![CircleCI](https://circleci.com/gh/rust-multiplatform/Compute-Engine-Template/tree/main.svg?style=svg)](https://circleci.com/gh/rust-multiplatform/Compute-Engine-Template/tree/main)
+[![CircleCI](https://circleci.com/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/tree/main.svg?style=svg)](https://circleci.com/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/tree/main)
 
 > Note that a failure here can also mean we run out of credits. Happens too often unfortunately!
 
 ### CI Platform: Travis
 
-[![Build Status](https://app.travis-ci.com/rust-multiplatform/Compute-Engine-Template.svg?branch=main)](https://app.travis-ci.com/rust-multiplatform/Compute-Engine-Template)
+[![Build Status](https://app.travis-ci.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline.svg?branch=main)](https://app.travis-ci.com/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline)
 
 On Travis we only build for Windows, macOS and Linux.
 Android and iOS _would_ be possible, however it requires a lot more work.
@@ -207,13 +207,13 @@ To use GitLab CI we mirror our repository from GitHub to GitLab.
 
 Currently, we are only building `platform_linux`. Other platforms should be possible.
 
-[![pipeline status](https://gitlab.com/rust-multiplatform/compute-engine-template/badges/main/pipeline.svg)](https://gitlab.com/rust-multiplatform/compute-engine-template/-/commits/main)
+[![pipeline status](https://gitlab.com/rust-multiplatform/compute-engine-example-graphics-pipeline/badges/main/pipeline.svg)](https://gitlab.com/rust-multiplatform/compute-engine-example-graphics-pipeline/-/commits/main)
 
 ### CI Platform: BitBucket Pipeline
 
 Unfortunately, BitBucket Pipelines don't have status badges.
 
-The pipelines are available at: [BitBucket Mirror](https://bitbucket.org/rust-multiplatform/compute-engine-template/)
+The pipelines are available at: [BitBucket Mirror](https://bitbucket.org/rust-multiplatform/compute-engine-example-graphics-pipeline/)
 
 ### CI Platform: TeamCity
 
@@ -235,14 +235,14 @@ Windows builds would also be much easier if we'd have an agent for it.
 
 ### CI Platform: AppVeyor
 
-[![Build status](https://ci.appveyor.com/api/projects/status/nsffumoc868yqsrj/branch/main?svg=true)](https://ci.appveyor.com/project/Sakul6499/compute-engine-template/branch/main)
+[![Build status](https://ci.appveyor.com/api/projects/status/nsffumoc868yqsrj/branch/main?svg=true)](https://ci.appveyor.com/project/Sakul6499/compute-engine-example-graphics-pipeline/branch/main)
 
 Simple pipeline to showcase the usage of Rust on AppVeyor.  
 Linux only currently, but [Windows](https://www.appveyor.com/docs/windows-images-software/) and [macOS](https://www.appveyor.com/docs/macos-images-software/) are possible.
 
 ### CI Platform: Jenkins
 
-[![Build Status](https://jenkins.sakul-flee.de/buildStatus/icon?job=github_rust_multiplatform%2FCompute-Engine-Template%2Fmain)](https://jenkins.sakul-flee.de/job/github_rust_multiplatform/job/Compute-Engine-Template/job/main/)
+[![Build Status](https://jenkins.sakul-flee.de/buildStatus/icon?job=github_rust_multiplatform%2FCompute-Engine-Example-Graphics-Pipeline%2Fmain)](https://jenkins.sakul-flee.de/job/github_rust_multiplatform/job/Compute-Engine-Example-Graphics-Pipeline/job/main/)
 
 [Jenkins](https://www.jenkins.io/) is another multi-purpose self-hosted CI platform.
 
@@ -254,21 +254,21 @@ The configuration file can be found under `.jenkins/Jenkinsfile` and includes bo
 A combination of [grcov](https://github.com/mozilla/grcov) and [codecov.io](https://codecov.io) is used to provide code-to-test coverage.  
 **Please note that it is impossible to reach 100% coverage on some platforms as e.g. bindgen-code (i.e. dynamically generated code / macros) is NOT covered by `grcov` and certain platform specific tools (like `cargo-apk`) generate additional code that also is NOT included in the coverage.**
 
-Test-to-Code coverage status: [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template)
+Test-to-Code coverage status: [![codecov](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graph/badge.svg?token=XpGvuQVirP)](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline)
 
 Below are several charts showing/highlighting the distribution of **all platforms**.
 
 ### Sunburst
 
-![Sunburst](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graphs/sunburst.svg?token=XpGvuQVirP)
+![Sunburst](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graphs/sunburst.svg?token=XpGvuQVirP)
 
 ### Grid
 
-![Grid](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graphs/tree.svg?token=XpGvuQVirP)
+![Grid](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graphs/tree.svg?token=XpGvuQVirP)
 
 ### Icicle
 
-![Icicle](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Template/branch/main/graphs/icicle.svg?token=XpGvuQVirP)
+![Icicle](https://codecov.io/gh/rust-multiplatform/Compute-Engine-Example-Graphics-Pipeline/branch/main/graphs/icicle.svg?token=XpGvuQVirP)
 
 ## Contributing & Getting Help
 
