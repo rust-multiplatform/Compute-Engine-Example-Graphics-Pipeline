@@ -15,7 +15,7 @@ crate-type = ["cdylib", "staticlib", "rlib"]
 
 [dependencies]
 compute_engine = { path = "./Compute-Engine-Library/" }
-log = "0.4.14"
+log = "0.4.19"
 env_logger = "0.10.0"
 vulkano = "0.31.0"
 vulkano-shaders = "0.31.0"
